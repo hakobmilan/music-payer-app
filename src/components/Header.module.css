@@ -1,0 +1,99 @@
+.header {
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 69vw;
+     flex-direction: row;
+     background-color: #f2f2f2;
+      margin-bottom: 20px;
+      padding: 4px;
+      border: 1px solid gray;
+      border-radius: 6px;
+  }
+  .div1, .div2 {
+    display: flex;
+  }
+  
+  .trbutton {
+    background-color: rgb(252, 248, 248);
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+   border-radius: 3px;
+  }
+  .icon {
+    margin: 5px 4px;
+  }
+  .inputField {
+    border-radius: 6px}
+
+    @media only screen and (max-width: 770px) {
+        .header {
+            width: 80vw;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        .header  {
+            width: 88vw;
+        }
+      }
+      @media only screen and (max-width: 630px) {
+        .icon {
+            width: 7px;
+        }
+        .trbutton {
+            width: 95px;
+            font-size: 11px;
+            margin-right: 2px;
+          }
+      }
+      @media only screen and (max-width: 540px) {
+        .header  {
+            width: 88vw;
+        }
+      }
+      @media only screen and (max-width: 490px) {
+        .trbutton {
+            width: 70px;
+            font-size: 10px;
+            margin-right: 2px;
+          }
+          .icon {
+            margin: 1px;
+          }
+      }
+      @media only screen and (max-width: 420px) {
+        .trbutton {
+            width: 50px;
+            font-size: 10px;
+            margin-right: 2px;
+          }
+          .icon {
+            margin: 1px;
+          }
+          .header {
+            flex-wrap: wrap;
+            justify-content: center; 
+            align-items: center; 
+            width: 90vw;
+            margin-left: 5px;
+            font-size: 12px;
+          }
+          .div1, .div2 {
+            margin: 2px;
+          }
+      }
+      @media only screen and (max-width: 270px) { 
+        .header {
+            width: 80vw;
+            margin-left: 20px;
+        }
+        }
+      

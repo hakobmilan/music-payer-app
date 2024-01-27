@@ -1,0 +1,101 @@
+.uploadcontainer {
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.inputfield {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputwrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.uploadbutton {
+  background-color:#cfcccc;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selectedfile {
+ 
+  font-weight: bold;
+}
+h3 {
+  color: rgb(129, 120, 120);
+  font-size: 1.3em;
+}
+.spinner {
+  display: block;
+  margin: 2px;
+}
+@media only screen and (max-width: 630px) {
+  .uploadcontainer {
+    font-size: 15px;
+  }
+  .inputfield {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .uploadcontainer {
+    font-size: 13px;
+  }
+  .inputfield {
+    width: 270px;
+  }
+  .inputwrapper {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .uploadcontainer {
+    font-size: 12px;
+  }
+  .inputfield {
+    width: 250px;
+  }
+  .inputwrapper {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .uploadcontainer {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  .inputfield {
+    width: 200px;
+  }
+  .inputwrapper {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 270px) { 
+  .uploadcontainer {
+    font-size: 11px;
+    margin-left: 13px;
+  }
+  .inputfield {
+    width: 150px;
+  }
+  }

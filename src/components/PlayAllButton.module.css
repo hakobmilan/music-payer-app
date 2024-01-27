@@ -1,0 +1,72 @@
+.button {
+    background-color: rgb(252, 248, 248);
+    border: 1px solid #ccc;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+   border-radius: 3px;
+   margin-right: 3px;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .item, .text {
+    padding: 2px;
+  }
+ 
+  
+  .icon {
+    margin: 0 3px; 
+    color: gray;
+  }
+  .icon :hover {
+    cursor: pointer;
+  }
+  
+  .iconright {
+    display: flex;
+    margin: 2px;
+    color: gray;
+  
+  }
+  .vl {
+    border-left: 1px  solid gray;
+    height: 25px;
+    margin: 0;
+ 
+  }
+  @media only screen and (max-width: 630px) {
+    .button {
+      width: 85px;
+    }
+    .text {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .button {
+      width: 80px;
+    }
+    .text {
+      font-size: 11px;
+    }
+    .iconright, .icon {
+      width: 8px;
+      margin: 0 3px; 
+    }
+  }
+  
+  @media only screen and (max-width: 490px) {
+    .button {
+      width: 75px;
+    }
+    .text {
+      font-size: 10px;
+    }
+    .iconright, .icon {
+      width: 7px;
+      margin: 0 2px; 
+    }
+  }

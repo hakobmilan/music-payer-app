@@ -1,0 +1,121 @@
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    display: flex;
+   flex-direction: row;
+   box-sizing: border-box;
+  }
+
+  
+  .part {
+  
+    border: none;
+    margin: 0px 1px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+  }
+
+  .partfirst {
+    border: none;
+    margin: 0px 1px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+  }
+  .container :first-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container :last-child {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+
+.container:hover .part {
+    background-color: #f5f5f5;
+    margin: 0px;
+}
+.iconfront, .iconfrontplay {
+    width: 14px;
+    display: inline;
+    color: gray;
+    margin: 0 7px;
+}
+.iconfrontplay:hover {
+    cursor: pointer;
+}
+.iconfront {
+    cursor:inherit;
+}
+.part :last-child:hover {
+ cursor: pointer;
+}
+
+.icon, .iconlast, .iconcheck {
+   
+    color: gray;
+}
+.arrow {
+    margin: 0 4px;
+    margin-bottom: 2px;
+    color: gray;
+    transform: rotate(270deg);
+}
+.iconlast {
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 770px) {
+  .container  {
+      width: 81vw;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .container  {
+      width: 90vw;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .container {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .container {
+    font-size: 13px;
+  }
+ .icon {
+  margin-right: 2px;
+ }
+ .iconfront, .iconfrontplay {
+  margin: 0 4px;
+}
+}
+@media only screen and (max-width: 490px) {
+  .container {
+    font-size: 12px;
+  }
+ .iconfront, .iconfrontplay {
+  margin: 0 2px;
+}
+}
+@media only screen and (max-width: 420px) {
+  .container {
+    margin-left: 5px;
+    font-size: 11px;
+    width: 94vw;
+  }
+}
+@media only screen and (max-width: 270px) { 
+  .container {
+    margin-left: 13px;
+    font-size: 11px;
+    width: 89vw;
+  }
+  }
